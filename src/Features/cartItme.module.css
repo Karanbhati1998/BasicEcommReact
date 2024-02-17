@@ -1,0 +1,54 @@
+.Cartitem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap :5rem;
+justify-content: space-between;
+align-items: center;
+margin: 2rem 0rem;
+border-bottom: 1px solid #cdcdcd;
+padding-bottom: 2rem ;
+}
+.left{
+    display: flex;
+    gap: 4rem;
+align-items: center;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.btngrp{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+}
+.btn{
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    background-color: transparent;
+}
+.icon{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.quantity{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.price{
+    font-weight: 500;
+}
+.title{
+    font-size: 2rem;
+}
